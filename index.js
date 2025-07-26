@@ -21,15 +21,6 @@ app.get("/", (req, res) => {
         }
     });
 });
-
-
-
-const server = app.listen(PORT, () => {
-    console.log("App is running on the port - 5001");
-});
-
-
-
 // app.get("/", (req, res) => {
 //     let prodData = {
 //         pName: "Jacket",
@@ -38,3 +29,7 @@ const server = app.listen(PORT, () => {
 //     };
 //     res.status(200).send(prodData);
 // });
+
+const server = app.listen(PORT, () => {
+    console.log("App is running on the port - 5001");
+});
